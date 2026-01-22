@@ -2,8 +2,6 @@
 
 
 @theme {
-    --font-po: "Poppins", sans-serif;
-    --font-eb: "EB Garamond", serif;
 
     --color-primary: #B68C5A;
     --color-dark01: #111111;
@@ -14,9 +12,14 @@
     --color-dark06: #E7E7E7;
 }
 
+@layer utilities{
 .font-eb {
-    font-family: "EB Garamond", serif;;
+     font-family: "EB Garamond", serif;
 }
 .font-po {
     font-family: "Poppins", sans-serif;
 }
+
+}
+
+
