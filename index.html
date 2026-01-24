@@ -235,25 +235,147 @@
                         alteration in some form, by injected humour.
                     </p>
                 </div>
-                <div class="flex  justify-between items-center ">
-                    <div >
-                        <div>
-                            <ol>
-                                <li>Are application fee waivers available?</li>
-                            </ol>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form, by injected humour,</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+                    <!-- LEFT: FAQ -->
+                    <div class="space-y-4">
+
+                        <!-- Item 1 (OPEN) -->
+                        <div class="bg-[#F3F3F3] rounded-xl p-6">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-lg">
+                                    1. Are application fee waivers available?
+                                </h3>
+                                <span class="text-xl font-bold">−</span>
+                            </div>
+                            <p class="text-gray-600 mt-3">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form,
+                                by injected humour.
+                            </p>
                         </div>
-                      
+
+                        <!-- Item 2 -->
+                        <div class="bg-[#F3F3F3] rounded-xl p-6">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-lg">
+                                    1. Are application fee waivers available?
+                                </h3>
+                                <span class="text-xl font-bold">+</span>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="bg-[#F3F3F3] rounded-xl p-6">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-lg">
+                                    1. Are application fee waivers available?
+                                </h3>
+                                <span class="text-xl font-bold">+</span>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="bg-[#F3F3F3] rounded-xl p-6">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-lg">
+                                    1. Are application fee waivers available?
+                                </h3>
+                                <span class="text-xl font-bold">+</span>
+                            </div>
+                        </div>
+
                     </div>
-                    <div>
-                        <img src="./images/faq.png" alt="faq.png">
+
+                    <!-- RIGHT: IMAGE -->
+                    <div class="flex justify-center">
+                        <img class="max-w-full h-auto" src="./images/faq.png" alt="FAQ Illustration">
                     </div>
+
                 </div>
             </div>
         </section>
+        <!-- Questions section -->
+        <section>
+            <div class="max-w-7xl mx-auto px-4 py-20">
+                <div class="text-center py-10">
+                    <h2 class="text-[25px] md:text-[30px] lg:text-[40px]
+                        text-dark02 font-extrabold
+                        leading-tight lg:leading-[85px]
+                        font-eb py-2">Contact With Us</h2>
+                    <p class="text-[14px] md:text-[16px] 
+                        lg:text-[16px] font-po md:px-20 lg:px-60 text-center">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                </div>
+                <!-- Main container - stack on mobile, side-by-side on desktop -->
+
+                <div class=" grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+                    <div class="bg-[#F3F3F3] rounded-md grid grid-cols-2 overflow-hidden">
+                        <div class="p-10 flex flex-col justify-center items-center border-r border-b border-gray-300">
+                            <img class="" src="./images/address.png" alt="address.png">
+                            <h4 class="font-semibold py-2">Address</h4>
+                            <p class="text-sm text-gray-600">
+                                A108 Adam Street,<br>
+                                New York, NY 535022
+                            </p>
+                        </div>
+                        <div class="p-10 flex flex-col justify-center items-center border-b border-gray-300">
+                            <img class="mx-auto mb-4" src="./images/call.png" alt="call.png">
+                            <h4 class="font-semibold py-2">Call Us</h4>
+                            <p class="text-sm text-gray-600">
+                                +88 01750 00 00 00<br>
+                                +88 01750 00 00 00
+                            </p>
+                        </div>
+                        <div class="p-10 flex flex-col justify-center items-center border-r border-gray-300">
+                            <img class="" src="./images/email.png" alt="email.png">
+                            <h4 class="font-semibold py-2">Email Us</h4>
+                            <p class="text-sm text-gray-600">
+                                info@gmail.com<br>
+                                info@gmail.com
+                            </p>
+                        </div>
+                        <div class="p-10 flex flex-col justify-center items-center">
+                            <img class="" src="./images/time.png" alt="time.png">
+                            <h4 class="font-semibold py-2">Working Hours</h4>
+                            <p class="text-sm text-gray-600">
+                                Mon-Fri: 9AM to 5PM<br>
+                                Sunday: 9AM to 1PM
+                            </p>
+                        </div>
+
+                    </div>
+                    <!--  -->
+                    <div class="bg-white rounded-md p-10">
+                        <form class="space-y-6">
+
+                            <input class="w-full bg-gray-100 px-5 py-4 rounded-md outline-none" placeholder="Your Name">
+
+                            <input class="w-full bg-gray-100 px-5 py-4 rounded-md outline-none"
+                                placeholder="Your Email">
+
+                            <input class="w-full bg-gray-100 px-5 py-4 rounded-md outline-none" placeholder="Subject">
+
+                            <textarea rows="5" class="w-full bg-gray-100 px-5 py-4 rounded-md outline-none"
+                                placeholder="Your Message"></textarea>
+
+                            <button class="w-full bg-[#B68C5A] text-white py-4 rounded-md font-medium">
+                                Send Message
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
